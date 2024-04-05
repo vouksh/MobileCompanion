@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34714.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileCompanion.Phone", "MobileCompanion.Phone\MobileCompanion.Phone.csproj", "{A14AA34A-30F7-471D-BC8A-D526B5C49538}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WatchApps", "WatchApps", "{4B374A8B-AEAE-43EF-8F1F-003594EC071B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileCompanion.WatchApps.Android", "WatchApps\MobileCompanion.WatchApps.Android\MobileCompanion.WatchApps.Android.csproj", "{7B085BDE-95B2-41E1-8BC4-66AA7543AB40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileCompanion.Shared", "MobileCompanion.Shared\MobileCompanion.Shared.csproj", "{F87D7E12-62BA-4BE0-975A-0DA15B92D1BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A14AA34A-30F7-471D-BC8A-D526B5C49538}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A14AA34A-30F7-471D-BC8A-D526B5C49538}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A14AA34A-30F7-471D-BC8A-D526B5C49538}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A14AA34A-30F7-471D-BC8A-D526B5C49538}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A14AA34A-30F7-471D-BC8A-D526B5C49538}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A14AA34A-30F7-471D-BC8A-D526B5C49538}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{7B085BDE-95B2-41E1-8BC4-66AA7543AB40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B085BDE-95B2-41E1-8BC4-66AA7543AB40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B085BDE-95B2-41E1-8BC4-66AA7543AB40}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{7B085BDE-95B2-41E1-8BC4-66AA7543AB40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B085BDE-95B2-41E1-8BC4-66AA7543AB40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B085BDE-95B2-41E1-8BC4-66AA7543AB40}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{F87D7E12-62BA-4BE0-975A-0DA15B92D1BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F87D7E12-62BA-4BE0-975A-0DA15B92D1BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F87D7E12-62BA-4BE0-975A-0DA15B92D1BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F87D7E12-62BA-4BE0-975A-0DA15B92D1BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7B085BDE-95B2-41E1-8BC4-66AA7543AB40} = {4B374A8B-AEAE-43EF-8F1F-003594EC071B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0EAA79C6-8139-4998-937F-B32FC9AB3161}
+	EndGlobalSection
+EndGlobal
